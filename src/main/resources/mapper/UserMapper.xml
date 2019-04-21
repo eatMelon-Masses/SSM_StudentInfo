@@ -10,11 +10,11 @@
         <result property="password" column="password"/>
     </resultMap>
     <insert id="addUser" useGeneratedKeys="true" keyProperty="id" parameterType="com.hlk.pojo.User">
-        INSERT  INTO USER (user_name,password) VALUES (#{user_name},#{password})
+        INSERT  INTO user (user_name,password) VALUES (#{user_name},#{password})
     </insert>
     <select id="getUserByUserName" resultType="com.hlk.pojo.User" parameterType="string">
       <![CDATA[
-        SELECT * FROM USER WHERE user_name=#{user_name}
+        SELECT * FROM user WHERE user_name=#{user_name}
       ]]>
     </select>
 </mapper>
