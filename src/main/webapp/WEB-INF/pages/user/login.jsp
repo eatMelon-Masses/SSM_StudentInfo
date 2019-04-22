@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="container">
-	<h1>用户登录</h1>
+	<h1>管理员登录</h1>
 	<hr/>
 	<form:form action="/user/loginValidate" method="post" commandName="user" role="form">
 		<div class="form-group">
