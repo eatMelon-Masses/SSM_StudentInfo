@@ -172,7 +172,7 @@
   </dependency>
   </dependencies>
   <build>
-    <finalName>Student_Information</finalName>
+    <finalName>ROOT</finalName>
   </build>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
