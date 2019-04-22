@@ -22,7 +22,7 @@
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar">*****</span>
 						</button>
-						<a class="navbar-brand" href="#">学生信息管理系统</a>
+						<a class="navbar-brand" href="#">考研学生信息管理系统</a>
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
@@ -35,13 +35,11 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<h2>student信息</h2>
+			<h2>学生信息</h2>
 			<a class="btn btn-primary" href="/stu/exportStu">导出数据为excel</a>
 			<a class="btn btn-primary" href="#" id="add">添加学生</a>
 			<div class="btn-group">
-				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					查看接口数据 <span class="caret"></span>
-				</button>
+
 				<ul class="dropdown-menu">
 					<li><a href="/stu/stulistxml?current=1&rowCount=10&sort[sender]=asc&searchPhrase=&id=b0df282a-0d67-40e5-8558-c9e93b7befed" target="_blank">XML</a></li>
 					<li><a href="/stu/getStuInfo?stuId=1&sort[sender]=asc&searchPhrase=&id=b0df282a-0d67-40e5-8558-c9e93b7befed" target="_blank">JSON</a></li>
